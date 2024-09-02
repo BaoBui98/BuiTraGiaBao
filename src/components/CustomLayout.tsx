@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import HeaderComponent from "./HeaderComponent";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 export default function CustomLayout({
   children,
